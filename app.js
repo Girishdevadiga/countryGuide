@@ -13,7 +13,7 @@ const erSpan=document.getElementById('Error');
 
 
 btn.addEventListener('click', () => {
-    
+    erSpan.textContent="";
     let cName = cInput.value;
     console.log(cName);
     fetch( `https://restcountries.com/v3.1/name/${cName}?fullText=true`).then((response)=>response.json())
