@@ -76,7 +76,7 @@ img{
     .contain {
         background-color: white;
         position: relative;
-        height: 85vh;
+        height: 87vh;
         width: 97vw;
         justify-content: center;
         padding-top: 10px;
@@ -123,5 +123,11 @@ img{
         padding-left: 59px;
         padding-top: 5px;
         color: red;
+    }
+    #cmnLag{
+        line-height: 22px;
+    }
+    .cap{
+        padding-top: 10px;
     }
 }
