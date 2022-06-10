@@ -1,0 +1,126 @@
+*{
+    margin-left: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(81, 94, 238);
+    display: inline-block;
+    margin-left: 449px;
+    margin-top: 80px;
+}
+.contain{
+    background-color:white;
+    position: relative;
+    height: 75vh;
+    width: 40vw;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 19px;
+}
+
+.box{
+    margin-top: 18px;
+    margin-left: 6%;
+    position: absolute;
+    width: 30vw;
+    line-height: 8px;
+   display: flex;
+   flex-direction: column;
+   background-color: azure;
+   
+}
+#country-inp{
+    width: 21vw;
+    height: 5vh;
+    border-radius: 3px;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+#search-btn{
+    width: 7vw;
+    height: 6vh;
+    border-radius: 5px;
+    margin-left: 8px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.countName{
+    padding-left: 237px;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+}
+.cap{
+    font-family: 'Roboto',sans-serif;
+    display: inline;
+    font-weight: 1200;
+    color: rgba(22, 19, 19, 0.874);
+
+}
+h3{
+    font-family: 'Roboto',sans-serif;
+    color: rgba(32, 26, 26, 0.741);
+}
+
+img{
+    width: 18vw;
+    height: 25vh;
+    padding-left: 142px;
+} 
+@media screen  and (max-width:500px){
+    body {
+    background-color: rgb(81, 94, 238);
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 72px;
+    }
+    .contain {
+        background-color: white;
+        position: relative;
+        height: 80vh;
+        width: 97vw;
+        justify-content: center;
+        padding-top: 10px;
+        border-radius: 19px;
+        margin:-4px
+    }
+    #country-inp {
+        width: 56vw;
+        height: 5vh;
+        border-radius: 4px;
+        margin-left: 22px;
+        margin-top: 21px;
+    }
+    #search-btn {
+        width: 22vw;
+        height: 6vh;
+        border-radius: 5px;
+        margin-left: 9px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .box{
+        margin-top: 40px;
+        margin-left: 1%;
+        position: absolute;
+        width: 94vw;
+        line-height: 3px;
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        width: 65vw;
+        height: 25vh;
+        padding-left: 52px;
+    }
+    .countName {
+        padding-left: 134px;
+        text-transform: uppercase;
+        font-family: 'Roboto',sans-serif;
+    }
+    .Error{
+        display: block;
+        padding-left: 59px;
+        padding-top: 5px;
+        color: red;
+    }
+}

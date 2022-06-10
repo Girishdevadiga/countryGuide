@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body >
+    <div class="contain">
+        <input class="from-control border-bottom" type="text" placeholder="Enter Country Name" id="country-inp">
+        <button class="btn btn-primary" id="search-btn">Search</button>
+        <span id="Error"></span>
+        <div class="box">
+            <img  id="flag-img" src="https://flagcdn.com/w320/in.png" alt="Image here">
+            <h2 class="Name"><span class="countName">INDIA</span></h2>
+            <h3 class="caps">Capital: <span class="cap" id="capital">New Delhi</span></h3>
+            <h3 class="caps">Continent: <span class="cap" id="conty">Asia</span></h3>
+            <h3 class="caps">Population: <span class="cap" id="popu">1380004385</span></h3>
+            <h3 class="caps">Currency: <span class="cap" id="currency">INR - Indian rupee</span></h3>
+            <h3 class="caps">Common Languages: <span class="cap" id="cmnLag">English, Hindi, Tamil</span></h3>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
