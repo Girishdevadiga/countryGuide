@@ -76,7 +76,7 @@ img{
     .contain {
         background-color: white;
         position: relative;
-        height: 80vh;
+        height: 85vh;
         width: 97vw;
         justify-content: center;
         padding-top: 10px;
@@ -103,6 +103,7 @@ img{
         margin-left: 1%;
         position: absolute;
         width: 94vw;
+        height: 68vh;
         line-height: 3px;
         display: flex;
         flex-direction: column;
